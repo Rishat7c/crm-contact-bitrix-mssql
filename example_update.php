@@ -18,6 +18,6 @@ define("LANG", "s1");
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
-require_once($_SERVER["DOCUMENT_ROOT"]."/local/php_interface/include/oracleIntegrationClass.php");
+require_once($_SERVER["DOCUMENT_ROOT"]."/local/php_interface/include/CrmContactController.php");
 
 CrmContactController::updateContacts();
